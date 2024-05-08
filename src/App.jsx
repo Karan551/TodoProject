@@ -32,7 +32,9 @@ function App() {
       <TodoContextProvider value={{ todos, addTodo, updateTodo, deleteTodo, toggleComplete }}>
         <div className="bg-[#172842] min-h-screen py-8">
           <div className="w-full max-w-2xl mx-auto shadow-md rounded-lg px-4 py-3 text-black bg-gray-200">
+          <div className='my-3'>
             <Heading />
+          </div>
             <div className="mb-4">
               <TodoForm />
               {/* Todo form goes here */}

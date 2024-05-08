@@ -18,7 +18,7 @@ function Heading() {
 
     return (
         <div>
-            <h1 className="text-3xl font-bold text-center mb-8 mt-2">Manage Your  Todos <span ref={el} className='text-[#008DDA]'></span></h1>
+            <h1 className="text-3xl font-bold text-center mb-8 mt-2">Manage Your  Todos <span ref={el} className='text-[#008DDA] block sm:inline'></span></h1>
         </div>
     );
 }
